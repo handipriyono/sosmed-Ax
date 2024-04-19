@@ -1,0 +1,7 @@
+.three-dots {
+  @apply flex items-center rounded-full bg-gray-100 text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-offset-2 focus:ring-offset-gray-100;
+}
+
+.item-wrapper {
+  @apply absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none;
+}
